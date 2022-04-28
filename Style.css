@@ -516,7 +516,7 @@ article {
     padding-bottom: 1rem;
 }
 
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     body {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: white;
@@ -668,7 +668,7 @@ article {
     }
 }
 
-@media all and (max-width: 800px) {
+@media screen and (max-width: 799px) {
     body {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: white;

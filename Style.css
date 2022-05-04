@@ -678,6 +678,10 @@ article {
         box-sizing: border-box;
         transition: .5s;
     }
+     
+     .content{
+         width: 100%;
+     }
     .M {
         position: absolute;
         top: 5rem;

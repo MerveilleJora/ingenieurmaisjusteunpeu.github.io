@@ -1,6 +1,8 @@
 const btncompetence = document.querySelector('.comp')
 const btncert = document.querySelector('.certif')
 const btnlog = document.querySelector('.log')
+const btnsco = document.querySelector('.sco')
+const btnpro = document.querySelector('.pro')
 
 //const eventcomp = document.getElementById('CompetencesID')
 btncompetence.addEventListener("click", () => {
@@ -11,6 +13,13 @@ btncert.addEventListener("click", () => {
 })
 btnlog.addEventListener("click", () => {
     document.getElementById('logiciel').classList.toggle('show')
+})
+btnsco.addEventListener("click", () => {
+    document.getElementById('scolaire').classList.toggle('show')
+})
+
+btnsco.addEventListener("click", () => {
+    document.getElementById('pro').classList.toggle('show')
 })
 
 const theme = document.querySelectorAll('.theme')

@@ -18,7 +18,7 @@ btnsco.addEventListener("click", () => {
     document.getElementById('scolaire').classList.toggle('show')
 })
 
-btnsco.addEventListener("click", () => {
+btnpro.addEventListener("click", () => {
     document.getElementById('pro').classList.toggle('show')
 })
 

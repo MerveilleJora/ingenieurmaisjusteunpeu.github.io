@@ -217,7 +217,8 @@ h1 {
 
 .content {
     background-color: white;
-    width: 30rem;
+    width: 80%;
+    margin: auto;
     padding-bottom: 0.5rem;
 }
 

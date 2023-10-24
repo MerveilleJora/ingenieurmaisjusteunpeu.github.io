@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fiche programmation orientée objet en java">
+    <title>Fiche - POO</title>
+
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="fiches.css">
+
+</head>
+<body>
+    <header>
+        <h1>Fiche - Programmation Orientée Objet (en java)</h1>
+    </header>
+    <section class="slide-section">
+        <div></div>
+        <div>
+            <div class="div-btn">
+                <button class="btn pointer preview" onclick="plusDivs(-1)">Précédent</button>
+                <button class="btn pointer next" onclick="plusDivs(+1)">Suivant</button>
+                <a class="pointer" href="../index.html">Retour à l'acc</a>
+
+            </div>
+            
+            <div class="mySlides"><h3>1 - Intro</h3><img src="../imgs/POO/Java 1.png"/></div>
+            <div class="mySlides"><h3>2 - Les classes</h3><img src="../imgs/POO/Java 2.png"/></div>
+            <div class="mySlides"><h3>Remarque</h3><img src="../imgs/POO/Java 3.png"/></div>
+            <div class="mySlides"><h3>3 - Les objets</h3><img src="../imgs/POO/Java 4.png"/></div>
+            <div class="mySlides"><h3>4.1 - l'encapsulation</h3><img src="../imgs/POO/Java 5.png"/></div>
+            <div class="mySlides"><h3>4.2 - l'encapsulation (bonne pratique)</h3><img src="../imgs/POO/Java 6.png"/></div>
+            <div class="mySlides"><h3>5 - Membre static</h3><img src="../imgs/POO/Java 7.png"/></div>
+            <div class="mySlides"><h3>6 - Utilisation des membres d'un objet</h3><img src="../imgs/POO/Java 8.png"/></div>
+            <div class="mySlides"><h3>7 - Notez bien</h3><img src="../imgs/POO/Java 10.png"/></div>
+            <div class="mySlides"><h3>8.1 - Héritage</h3><img src="../imgs/POO/Java 9.png"/></div>
+            <div class="mySlides"><h3>8.2 - Héritage (instanceof )</h3><img src="../imgs/POO/Java 11.png"/></div>
+
+        </div>
+    </section>
+
+    
+    <script>
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+    </script>
+</body>
+</html>
